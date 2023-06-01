@@ -1,0 +1,26 @@
+.grid{
+    display:grid;
+    grid-template: 3fr 1fr /1fr;
+}
+
+.heroImage{
+    overflow: hidden;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    background-color: blue;
+}
+
+.backgroundImage{
+    z-index: ;
+    opacity: ;
+
+}
+.log{
+    max-width: 100%;
+    height:auto;
+
+}
