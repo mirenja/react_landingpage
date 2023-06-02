@@ -4,23 +4,34 @@
 }
 
 .heroImage{
-    overflow: hidden;
+    background-image: url('/images/hero1.png');
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.tagLiner{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav{
-    background-color: blue;
+    
 }
 
 .backgroundImage{
-    z-index: ;
+    z-index:-1;
     opacity: ;
 
 }
-.log{
+.logo{
     max-width: 100%;
     height:auto;
+    overflow: hidden;
 
 }
