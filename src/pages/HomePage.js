@@ -29,13 +29,20 @@ export default function HomePage(){
                 {/* could i use a for loop to make this more concise? */}
                 <div className={styles.nav}>
                     <SectionButton targetSectionName="LAUNCHING SOON" targetSectionId="launching-soon"/>
+                    <SectionButton targetSectionName="WE BELIEVE" targetSectionId="we-believe"/>
+                    <SectionButton targetSectionName="GUESTS" targetSectionId="guests"/>
+                    <SectionButton targetSectionName="CONNECT" targetSectionId="connect"/>
+                    <SectionButton targetSectionName="SUBSCRIBE" targetSectionId="subscribe"/>
                 </div>
             </section>
             
             </Layout>
-            <section id='launching-soon'>
-                <LaunchingSoon />
-            </section>
+            <section id='launching-soon'> <LaunchingSoon /></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            
             
         </>
     );

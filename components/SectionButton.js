@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import styles from './SectionButton.module.css';
 
 // props= targetSectionName,targetSectionId
 export default function SectionButton({targetSectionName,targetSectionId}){
@@ -7,9 +8,9 @@ export default function SectionButton({targetSectionName,targetSectionId}){
     return (
     <div>
         <Link href={`#${targetSectionId}`}>
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+        <button  className={`text-white font-thin  ${styles.scrollButton}`}>
         {targetSectionName}
-        </button>
+        </button> 
         </Link>
     </div>
     );

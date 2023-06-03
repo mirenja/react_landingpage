@@ -1,4 +1,5 @@
 import styles from './layout.module.css';
+import '../src/styles/index.css'
 
 
 export default function Layout({ children }) {
