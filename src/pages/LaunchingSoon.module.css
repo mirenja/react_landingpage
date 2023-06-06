@@ -1,7 +1,88 @@
-.caption{
+.mainContent{
     color: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display:grid;
+    grid-template:1fr / repeat(8,1fr);
+    margin-top: 4.9rem;
+    /* align-items: center; */
 
+    /* justify-content: center;
+    margin-top: 4.9rem; */
+   
+    
+
+}
+
+.imageArea{
+    grid-area: 1 / 2/ 1 / span 6;
+}
+
+.contentArea{
+    grid-area: 1/1/1/span 6;
+    z-index: 5;
+    margin-top: 2rem;
+    
+}
+.backgroundImage{
+    
+    background-image: url('/images/hero1.png');
+    background-size: cover;  
+    width:53rem;
+    height:30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.5);
+    position: relative;
+    justify-self: center;
+    
+
+}
+
+.textContainer{
+    
+    display: grid;
+    grid-template:1fr/ auto 27fr;
+    align-items: flex-start;
+    gap: 1rem;
+   
+}
+
+.contentRectangle{
+    width:3rem;
+    height:9rem;
+    background-color: #FF731D;
+  
+
+ 
+
+}
+
+.textRow{
+    line-height: 1;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+
+.contentColumn h4{
+    font-size: 3rem;
+}
+
+.contentColumn p{
+    font-size: 1rem;
+    font-weight:300;
+    line-height: 1.5;
+    
+}
+
+.paragraphContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.paragraphContainerLower{
+    margin-top: 2rem;
 }

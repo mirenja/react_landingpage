@@ -1,0 +1,31 @@
+.grid{
+    display: grid;
+    grid-template: 1fr 7fr / repeat(8, 1fr);
+}
+
+.headerContent{
+    grid-area:1/4/1/span 5;
+    border-bottom: 0.4rem solid;
+    border-color: #FF731D;
+    
+    height:2rem;
+    
+
+}
+
+.headerContent h4{
+   font-weight: 600;
+   margin-bottom: 0.4rem;
+   /* padding-bottom:0.2rem; */
+   padding-right: 2.5rem;
+   text-align: right;
+
+}
+
+.bodyParagraphsContainer{
+    grid-area:2 / 1 / span 1 /span 4 ;
+}
+
+.bodyimagesContainer{
+    grid-area:2/5/span 1/span 4;
+}
