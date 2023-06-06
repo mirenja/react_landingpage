@@ -28,4 +28,6 @@
 
 .bodyimagesContainer{
     grid-area:2/5/span 1/span 4;
+    background-image: url('/images/ellipse.png');
+    background-repeat: no-repeat;
 }

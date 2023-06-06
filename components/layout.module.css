@@ -2,6 +2,6 @@
 
 .container{
     display: grid;
-    grid-template: 90vh/1fr;
+    grid-template: 95vh/1fr;
     background-color: #191414;
 }
