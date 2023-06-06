@@ -22,9 +22,10 @@ export default function WeBelieve(){
                         <h1>OUR</h1>
                         <h1>RAISON</h1>
                         <h1>D’ETRE</h1>
-                        <div><p>THIS IS ONGOING!!!</p></div>
+                        
                     
                     </div>
+                    <div><p>THIS IS ONGOING!!!</p></div>
                     
                 </div>
                
