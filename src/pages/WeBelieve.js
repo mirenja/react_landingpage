@@ -24,6 +24,7 @@ export default function WeBelieve(){
                         <h1>D’ETRE</h1>
                     
                     </div>
+                    <div><p>THIS IS ONGOING!!!</p></div>
                 </div>
                
             </Layout>
